@@ -1,6 +1,6 @@
 # QLearning-ReinforcementLearning-
 
-Bir reinforcement learning algoritması olan qlearning algoritması ile yapılmış bir program.Programın amacı 50x50 rastgele %30 oranında engel içeren bir matriste kullanıcı tarafından verilen başlangıç ve bitiş noktaları arasındaki en kısa mesafeyi bulmak.Ajan çapraz gidebilir.Algoritmayı yazarken greedy-epsilon algoritmasını kullandık.Epsilon oranını %20 belirledik.Bu sayede ajanımız her zaman öğrendiği yolu kullanmıcaktı ve yeni belkide daha kısa bir yol bulabilcekti.Algoritma optimuma yakınsadığında durur ve sonucu ekrana basar.
+Bir reinforcement learning algoritması olan qlearning algoritması ile yapılmış bir program.Programın amacı 50x50 rastgele %30 oranında engel içeren bir matriste kullanıcı tarafından verilen başlangıç ve bitiş noktaları arasındaki en kısa mesafeyi bulmak.Ajan çapraz gidebilir.Ajan engele çarparsa başlangıç noktasına döner.Algoritmayı yazarken greedy-epsilon algoritmasını kullandık.Epsilon oranını %20 belirledik.Bu sayede ajanımız her zaman öğrendiği yolu kullanmıcaktı ve yeni belkide daha kısa bir yol bulabilcekti.Algoritma optimuma yakınsadığında durur ve sonucu ekrana basar.
 
 Kullanıcı ilk önce başlangıç ve bitiş noktası seçer ve başla tuşuna basar.Program kısa sürede en kısa yolu bulur ve atılan adım(episode via step) harcanan maliyet (episode via step) grafiğini yazdırır.
 ![Qlearning1](https://user-images.githubusercontent.com/76952086/125657068-5bb82e4b-41c2-48fd-b2ab-542bd8849a46.gif)
